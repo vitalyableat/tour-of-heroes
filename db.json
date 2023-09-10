@@ -1,0 +1,54 @@
+{
+  "heroes": [
+    {
+      "id": 1,
+      "name": "Hero",
+      "rating": 100
+    },
+    {
+      "id": 2,
+      "name": "Angular",
+      "rating": 99
+    },
+    {
+      "id": 3,
+      "name": "Number One",
+      "rating": 228
+    },
+    {
+      "id": 4,
+      "name": "React",
+      "rating": 150
+    },
+    {
+      "id": 5,
+      "name": "Vitalya",
+      "rating": 47
+    },
+    {
+      "id": 6,
+      "name": "Vitalya",
+      "rating": 47
+    },
+    {
+      "id": 7,
+      "name": "Vitalya",
+      "rating": 47
+    },
+    {
+      "id": 8,
+      "name": "Vitalya",
+      "rating": 47
+    },
+    {
+      "id": 9,
+      "name": "Vitalya",
+      "rating": 47
+    },
+    {
+      "id": 10,
+      "name": "Vitalya",
+      "rating": 47
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+.navigation {
+  display: flex;
+  gap: var(--lg);
+  margin-top: var(--sm);
+  margin-bottom: var(--xl);
+}
+
+.link {
+  padding: var(--sm);
+  background-color: var(--grey);
+  border-radius: var(--xs);
+  text-decoration: none;
+  color: var(--black);
+}

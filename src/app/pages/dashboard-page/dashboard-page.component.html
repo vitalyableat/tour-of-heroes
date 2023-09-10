@@ -1,0 +1,5 @@
+<h2 class="title">Top Heroes</h2>
+<app-loader *ngIf="loading" />
+<div class="heroGrid">
+  <a *ngFor="let hero of heroService.heroes | filterHeroes" [routerLink]="[APP_ROUTES.HEROES, hero.id]" class="heroLink">{{hero.name}}</a>
+</div>

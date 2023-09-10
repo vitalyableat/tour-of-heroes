@@ -1,0 +1,10 @@
+<app-loader *ngIf="loading" />
+
+<h2>My Heroes</h2>
+
+<div class="heroList">
+  <a *ngFor="let hero of heroService.heroes" [routerLink]="['/', APP_ROUTES.HEROES, hero.id]" class="heroLink">
+    <div class="heroId">{{hero.id}}</div>
+    {{hero.name}}
+  </a>
+</div>
