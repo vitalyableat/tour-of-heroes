@@ -1,1 +1,52 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Poppins, sans-serif;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+
+  --primary: #405061;
+  --secondary: #336699;
+  --grey: #EEE;
+  --black: #000;
+  --white: #FFF;
+
+  --xl: 36px;
+  --lg: 24px;
+  --md: 16px;
+  --sm: 8px;
+  --xs: 4px;
+}
+
+h1 {
+  font-size: 32px;
+  color: var(--secondary);
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 16px;
+  color: var(--primary);
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+input {
+  padding: 4px 8px;
+}

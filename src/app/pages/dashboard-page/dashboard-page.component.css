@@ -1,0 +1,18 @@
+.heroGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--lg);
+  margin-top: var(--md);
+}
+
+.title {
+  text-align: center;
+}
+
+.heroLink {
+  background-color: var(--primary);
+  padding: var(--md) var(--lg);
+  text-decoration: none;
+  color: var(--white);
+  text-align: center;
+}
